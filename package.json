@@ -1,0 +1,25 @@
+{
+  "name": "sonflix",
+  "version": "1.0.0",
+  "description": "a minimal version of netflix in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "browser-sync start --server --files 'css/.css', 'js/.js', *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sondi/sonflix.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Sandra Tirado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sondi/sonflix/issues"
+  },
+  "homepage": "https://github.com/sondi/sonflix#readme"
+}
