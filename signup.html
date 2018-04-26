@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sonflix</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Sacramento" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="main">
+    <header>
+        <div class="logo">
+            <h1>Sonflix</h1>
+        </div>
+    </header>
+    <section>
+        <form action="" name='registro' id="registro">
+            <p>
+                <label>Nombre</label>
+                <label>
+                <input id="regName" type="text" name="nombre"  placeholder="first name">
+                </label>
+                <p id="errorName" class="error"></p>
+            </p>
+            <p>
+                <label>Apellido</label>
+                <label>
+                <input id="regLastName" type="text" name="Apellido" placeholder="last name">
+                </label>
+                <p id="errorLastName" class="error"></p>
+            </p>
+            <p>
+                <label>Correo electrónico:</label><br>
+                <label>
+                <input id='username' type="email" name="Correo Electronico" placeholder="mail@mimail.com">
+                </label>
+                <p id="errorEmail" class="error"></p>
+            </p>
+            <p>
+                <label>Teléfono</label>
+                <label>
+                <input id="regPhone" type="number" name="Telefono" placeholder="ex: 5555 5555">
+                </label>
+                <p id="errorTel" class="error"></p>
+            </p>
+            <p>
+                <label>Contraseña</label>
+                <label>
+                <input id="password" type="password" name="Contraseña" placeholder="contraseña">
+                </label>
+                <p id="errorPwd" class="error"></p>
+            </p>
+            <p>
+                <label>Confirma Contraseña</label>
+                <label>
+                    <input id="password2" type="password" name="Contraseña" value="" placeholder="contraseña">
+                </label>
+                <p id="errorPwd2" class="error"></p>
+            </p>
+            <button type="submit" id="submit">Enviar</button>
+            <p id="placeholder"></p>
+        </form>
+        <div class ="error"></div>
+    </section>
+    <footer></footer>
+</body>
+</html>
+
+
+
